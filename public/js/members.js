@@ -116,6 +116,7 @@ deleteItin = (IDs) => {
     .then(function() {
       alert("Deleted Successfully!");
       console.log("Deleted Successfully!");
+      location.reload();
     });
 }
 
